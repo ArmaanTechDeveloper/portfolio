@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    overflow-x: hidden;
+}
+#navigation{
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+}
+#navigation > ul {
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid rgb(182, 182, 182);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navigation > ul > li{
+    list-style: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navigation > ul > li > a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 0px 0.5rem;
+    padding: 0.4rem;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 0.3rem;
+}

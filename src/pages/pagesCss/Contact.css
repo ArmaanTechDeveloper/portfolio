@@ -1,0 +1,56 @@
+#contact{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    margin: 1rem 0;
+}
+#contact > form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 100%;
+}
+#contact  >  form > label{
+    font-size: 1.5rem ;
+    margin: 0.5rem 0rem;
+    font-family: 'Oxygen', sans-serif;
+}
+#contact  >  form > input  , #contact  >  form > textarea{
+    width: 100%;
+    align-self: center;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #00b506;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    color: #7600e4;
+}
+#contact  >  form > input {
+    height: 10%;
+}
+#contact  >  form > textarea{
+    height: 40%;
+    width: 99.5%;
+}
+#contact  >  form  > button{
+    width: 50%;
+    align-self: center;
+    padding: 0.7rem;
+    outline: none;
+    border: none;
+    background-color: #7600e4;
+    color: white;
+    cursor: pointer;
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    font-family: 'Quicksand', sans-serif;
+}
+#contact > h1{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2rem;
+    color: #7600e4;
+}

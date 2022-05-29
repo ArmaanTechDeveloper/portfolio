@@ -1,0 +1,20 @@
+a.active{
+  background-color: #00b506 !important;
+  color: white !important;
+}
+.green{
+  background-color: #00b506 !important;
+  color: white !important;
+}
+.purple{
+  background-color: #8403fc;
+  color: white;
+  transition: 0.5s;
+}
+.purple:hover{
+  background-color: #7801e7;
+  transition: 0.5s;
+}
+a{
+  text-decoration: none;
+}
