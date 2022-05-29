@@ -10,9 +10,9 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/community" element={<Community />} />
+        <Route path={process.env.PUBLIC_URL + '/'} element={<Home />} />
+        <Route path={process.env.PUBLIC_URL + '/contact'} element={<Contact />} />
+        <Route path={process.env.PUBLIC_URL + '/community'} element={<Community />} />
       </Routes>
     </BrowserRouter>
   );
